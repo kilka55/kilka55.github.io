@@ -1,0 +1,361 @@
+<html>
+
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Магия утра</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8 /">	
+<style>
+
+body{
+			background: url(фон1.jpg);
+			background-size: 100%; 
+			margin: 1% 0 0 0;
+			background-repeat: no-repeat;
+			background-size:cover;
+			background-attachment:fixed;
+		}
+.img{
+			margin-left: 17%;
+	}
+
+.blestki{
+			position: absolute;
+			top: 20%;
+			right: 20%;
+	}	
+
+.pam1{
+			background: url(фиолет3.jpg);
+			color:#FFE4E1;
+			font-family:Mistral;
+			font-size:20;
+			width: 25%;
+			box-shadow: 2px 2px 2px 2px gray;
+  			border: 1px solid gray;
+  			border-radius: 15%;
+			padding: 10px 10px 10px 10px;
+			position: absolute;
+			top: 0.5%;
+			left: 0.5%;
+			}
+
+.pam2{
+			background: url(фиолет.jpg);			
+			width: 25%;
+			font-family:Mistral;
+			color:#FFE4E1;
+			font-size:19;
+			box-shadow: 2px 2px 2px 2px gray;
+  			border: 1% solid gray;
+  			border-radius: 15%;
+			padding: 1% 1% 1% 1%;
+			float: right;
+			position: absolute;
+			top: 0.5%;
+			right: 1%;
+			}	
+
+a.button1 {
+			  position: relative;
+			  display: inline-block;
+			  color: #8B008B;
+			  font-weight: bold;
+			  text-decoration: none;
+			  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+			  user-select: none;
+			  padding: 1em 2em;
+			  outline: none;
+			  border-radius: 3px / 100%;
+			  background-image:
+			   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+			   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+			   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+			   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+			   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+			   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+			  background-repeat: no-repeat;
+			  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+			  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+			  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+			  margin: 10px 15px 10px 15px ;  
+			}
+a.button1:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a.button1:active {
+  top: 1px;
+}			
+
+.semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  max-width: 200px;
+  background: #fff; /* запасной цвет для старых браузеров */
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  float:left;
+
+
+}
+
+.knopka2{
+  margin-bottom:20%;
+  margin-left:1.5%;
+  width:25%;
+  margin-top:-25%;
+  display: flex;
+}
+
+
+.knopki{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+.tog{
+margin-bottom:100px;
+}			
+			
+.book{
+			position: absolute;
+			top: 38%;
+			right: 1%;
+			}
+	
+.heart{
+			position: absolute;
+			top: 80%;
+			left: 5%;
+			}
+			
+.blestki{
+			position: absolute;
+			top: 24%;
+			left: 27%;
+			}
+			
+	
+
+	
+.mainmenubtn {
+    background-color: lightpink;
+    color: white;
+	font-size:14;
+	font-family:URW Chancery L, cursive;
+    border: none;
+    cursor: pointer;
+    padding:15px;
+	border-radius: 15%;
+    margin-top:50%;
+}
+
+.mainmenubtn:hover {
+    background-color: DarkOrchid;
+	border-radius: 15%;
+    }
+    
+.dropdown {
+    position: fixed;
+	top: 180px;
+	left: 20px;
+    display: inline-block;
+	border-radius: 15%;
+}
+.dropdown-child {
+    display: none;
+    background-color: SlateBlue;
+    min-width: 100px;
+	font-size:14;
+	font-family:URW Chancery L, cursive;
+	border-radius: 15%;
+}
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+	border-radius: 15%;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+	border-radius: 15%;
+}
+
+
+p{
+	font-family:"Courier New", Courier, monospace;
+}	
+
+
+.loh{
+margin-top:-28%;
+}	
+
+
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:20px;
+right:10px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+
+.vidos{
+margin-top:25%;
+}
+
+
+.podval{
+	 opacity: 0.5;
+	 background: gray; /* Цвет фона */
+
+     left: 0; bottom: 0; /* Левый нижний угол */
+     color: #fff; /* Цвет текста */
+     width: 100%; /* Ширина слоя */
+	}	
+	
+</style>
+		
+	</head>
+	
+	<body>
+	
+	<img src="заголовок.png" width="65%" height="45%" class="img">
+	
+	<img class="blestki" src="блестки.png" width="50%" height="20%" class="img">
+	
+	
+	
+	<div class="pam2">
+			<tr>
+			<td class="title"><b>ПРАВИЛЬНОЕ УТРО</b></td>
+			</tr>
+			<tr>
+			<td><br>Пробуждение и утренний распорядок очень сильно влияют на успех во всех сферах жизни. Целенаправленное, продуктивное и успешное утро генерирует такой же день. А это неизбежно ведет к успешной жизни. Равно как непродуктивные и посредственные утра создают такие же дни. И серую жизнь.<br></td>
+			</tr>
+	</div>
+	
+<div class="dropdown">
+  <button class="mainmenubtn">Практики</button>
+  <div class="dropdown-child">
+    <a href="Дневник.html">Дневник</a>
+    <a href="Аффирмации.html">Аффирмации</a>
+    <a href="Визуализация!.html">Визуализация</a>
+    <a href="Тишина.html">Тишина</a>
+    <a href="Спорт!.html">Спорт</a>
+	<a href="Чтение!.html">Чтение</a>
+  </div>
+</div>
+	
+
+	
+	<div class="pam1">
+			<tr>
+			<td class="title"><b>ПРАКТИКИ, КОТОРЫЕ ИЗМЕНЯТ ВАШУ ЖИЗНЬ К ЛУЧШЕМУ</b></td>
+			</tr>
+	</div>
+	
+	
+	<div class="head">	
+	
+	</div>
+
+
+	
+<div class="tog">	
+	<div class="knopki">
+		<a href="Дневник.html" class="button1">Дневник</a>
+		<a href="Аффирмации.html" class="button1">Аффирмации</a>
+		<a href="Визуализация!.html" class="button1">Визуализация</a>
+	</div>
+	<div class="knopki">
+		<a href="Тишина.html" class="button1">Тишина</a>
+		<a href="Спорт!.html" class="button1">Спорт</a>
+		<a href="Чтение!.html" class="button1">Чтение</a>
+	</div>
+</div>
+	
+<div class="loh">		
+	<div class="knopka2">	
+		<a class="semi-transparent-button" href="Таблица.html">О книге</a>
+	</div>
+	<div class="knopka2">	
+		<a class="semi-transparent-button" href="Регистрация.html">Регистрация</a>
+	</div>
+</div>
+
+<div class="vidos">	
+	<center><video width="900" height="640" controls>
+		<source src="«Магия Утра». Хэл Элрод _ Рисованное видео.mp4" type="video/mp4">
+		</video> </center>
+	</div>	
+
+
+<div class="all">
+		<input checked type="radio" name="respond" id="desktop" />
+			<article id="slider">
+					<input checked type="radio" name="slider" id="switch1" />
+					<input type="radio" name="slider" id="switch2" />
+					<input type="radio" name="slider" id="switch3" />
+					<input type="radio" name="slider" id="switch4" />
+					<input type="radio" name="slider" id="switch5" />
+				<div id="slides">
+					<div id="overflow">
+						<div class="image">							
+							<article><img src="слайд1.jpg"  alt="mORE"/></article>
+							<article><img src="слайд2.jpg"  alt="mORE"/></article>
+							<article><img src="слайд3.jpg"  alt="mORE"/></article>
+							<article><img src="слайд4.jpg"  alt="mORE"/></article>							
+						</div>
+					</div>
+				</div>
+				<div id="controls">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+				</div>
+				<div id="active">
+					<label for="switch1"></label>
+					<label for="switch2"></label>
+					<label for="switch3"></label>
+					<label for="switch4"></label>
+				</div>
+			</article>
+	</div>
+
+
+
+	<a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+	
+	
+	
+	
+	<div class="podval">
+	&bull;ХЭЛ ЭЛРОД
+	<img src="заголовок.png"  width="70" height="30">
+	</div>
+	
+	</body>
+
+</html>
