@@ -1,0 +1,278 @@
+<html>
+
+	<head>
+
+		<title>Дневник</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8 /">
+	<style>
+	
+	body{
+			background: url(fondnevnichok.jpg);
+			background-size: 100%; 
+			margin: 10px 0 0 0;
+			background-repeat: no-repeat;
+			background-size:cover;
+			background-attachment:fixed;
+		}
+		
+	a.button1 {
+			  position: absolute;
+			  left:0;
+			  top:0;
+			  width: 80px;
+			  height: 30px;
+			  z-index: 100;
+			  display: inline-block;
+			  color: #8B008B;
+			  font-weight: bold;
+			  text-decoration: none;
+			  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+			  user-select: none;
+			  font-size:16;
+			  padding: 5px 10px;
+			  outline: none;
+			  border-radius: 3px / 100%;
+			  background-image:
+			   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+			   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+			   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+			   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+			   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+			   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+			  background-repeat: no-repeat;
+			  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+			  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+			  box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px; 
+			}
+a.button1:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a.button1:active {
+  top: 1px;
+}			
+		
+.knopki{
+		
+		
+	}
+
+		
+	h1{
+	text-align:center;
+	color:#FFF8DC;
+	font-family:Century;
+	font-size:48;
+	}
+	span{
+	color:white;
+	}
+	
+	.blestki{
+			position: absolute;
+			top: 0;
+			right:60%;
+	}	
+	
+	.blestki1{
+			position: absolute;
+			top: 0;
+			left:50%;
+	}
+	
+	.dnevnik{
+			position: absolute;
+			top: 15%;
+			left: 1%;
+			}
+	
+	.poka{
+			background-color: rgba(219, 112, 147, 0.4);			
+			width: 25%;
+			font-family:URW Chancery L, cursive;
+			color:#FFE4E1;
+			font-size:18;
+			box-shadow: 2px 2px 2px 2px PaleVioletRed;
+  			border: 1% solid gray;
+  			border-radius: 15%;
+			padding: 1% 1% 1% 1%;
+			float: right;
+			position: absolute;
+			top: 0.5%;
+			right: 1%;
+			}
+	
+	.notebook{
+		width: 40%;
+		display: flex;
+		justify-content: center;
+	}
+	
+	
+	.str{
+					
+			width: 12%;
+			height: 50%
+			font-family:URW Chancery L, cursive;
+			color:black;
+			font-size:18;
+			box-shadow: 2px 2px 2px 2px PaleVioletRed;
+  			border: 1% solid gray;
+			padding: 1% 1% 1% 1%;
+			float: right;
+			position: absolute;
+			top: 16%;
+			left: 6%;
+	}
+	
+	.punkt{
+					
+			width: 13%;
+			height: 40%
+			font-family:URW Chancery L, cursive;
+			color:black;
+			font-size:18;
+			box-shadow: 2px 2px 2px 2px PaleVioletRed;
+  			border: 1% solid gray;
+			padding: 1% 1% 1% 1%;
+			float: right;
+			position: absolute;
+			top: 14%;
+			right: 64%;
+	}
+	
+	
+	.vidos{
+	float:right;
+	margin-right:10%;
+	}
+	
+	.podval{
+	 opacity: 0.5;
+	 background: gray;
+ 	 padding: 0px; 
+	 position: fixed; 
+     left: 0; bottom: 0; 
+     padding: 0px; 
+     color: #fff; 
+     width: 100%; 
+	}	
+
+.topbutton {
+	width:100px;
+	border:2px solid #ccc;
+	background:#f7f7f7;
+	text-align:center;
+	padding:10px;
+	position:fixed;
+	bottom:20px;
+	right:10px;
+	cursor:pointer;
+	color:#333;
+	font-family:verdana;
+	font-size:12px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	}
+	
+	ol{
+	font-size:20;
+	}
+.atap{
+			width: 90%;
+			font-family:URW Chancery L, cursive;
+			color:#483D8B;
+			font-size:18;
+			box-shadow: 2px 2px 2px 2px #FFDAB9;
+			border: 1% solid gray;
+			padding: 1% 1% 1% 1%;
+			
+			text-align:center;
+			border-radius: 60%;
+			}
+	
+	</style>
+	
+</head>
+	
+<body>
+
+	
+	<h1>
+&bull; Дневник &bull;
+
+	<div class="knopki">
+		<a href="index.html" class="button1">Назад</a>
+
+	</div>
+
+	</h1>
+	<img class="blestki" src="blestki.png" width="50%" height="20%">
+	<img class="blestki1" src="blestki.png" width="50%" height="20%">	
+
+	<div class="vidos">
+		<center><video width="820" height="540" controls>
+		<source src="dnevn.mp4" type="video/mp4">
+		</video><center>
+</div>	
+	
+	<div class="punkt">
+		<tr>
+			<td class="title"><b>Вот каких результатов от ведения дневника можно ожидать:</b></td>
+			</tr>
+			<ol>
+			<li>Личная эффективность растет – минимум затрат максимам результатов;</li>
+			<li>Вы располагаете большим количеством свободным временем;</li>
+			<li>Ваша уверенность в себе крепнет;</li>
+			<li>Вы развиваете творческое мышление;</li>
+			<li>Вы воодушевлены и полны энтузиазма;</li>
+			<li>Вы совершенствуетесь;</li>
+			<li>Вы организованны;</li>
+			<li>Вы контролируете себя и свою жизнь.</li>
+			</ol>	
+	</div>
+	
+	<img class="notebook" src="notebook.png">
+	
+	<div class="str">
+			<tr>
+			<td class="title"><b>Улучшается психическое здоровье</b></td>
+			</tr>
+			<tr>
+			<td>Регулярное ведение дневника может стать буфером для стресса в повседневной жизни. Например, кто-то ведет журнал благодарностей: уже одно это позволяет уяснить, что в вашей жизни есть много хорошего и не укорять себя за то, что у вас чего-нибудь нет.
+
+Самооценка повысится, если вы будете писать об успехах или заполнять страницы аффирмациями. Настроение улучшится, если целью будет описать что-нибудь забавное или веселое. В дневнике можно «пережить» тревожные события в безопасной среде и проанализировать случившееся.
+
+В обычной жизни мы часто вынуждены говорить то, чего от нас ждут, и вести себя соответствующе. В дневнике этого делать не нужно, можно расслабиться и побыть самим собой.</td>
+			</tr>
+	</div>
+	
+<div class="atap">
+<td>Начинайте с малого — не перегрузите себя в самом начале. Давайте себе маленькие задания, если совсем не знаете, о чём писать — это могут быть вопросы (они есть в конце статьи) или небольшие задания (скажем, перечислить людей, с которыми вы общались сегодня). Первым шагом должна стать привычка писать. И вот что вам поможет:
+
+Выделите немного времени. Дайте себе буквально 5-10 минут, включите таймер и пишите. Писать долго поначалу страшно — мы думаем, что это занимает целую вечность. А 5-10 минут можно найти даже в самом загруженном дне. Вы удивитесь, сколько можно написать за десять минут!
+
+Используйте бумагу. Конечно, можно писать в телефоне или на ноутбуке, но я считаю, что лучше избегать экранов и использовать блокнот. Позвольте себе снизить темп и погрузиться в процесс. Дайте себе время закончить мысли и записать их. Это по-настоящему крутой способ отдохнуть от нашего мира, где все утыкаются в телефоны.
+
+Записывайте дату. Это поможет оглянуться назад и проанализировать то, что происходило с вами и как вы себя чувствовали в этот момент. Ещё так будет проще отслеживать, как часто вы пишите.
+
+Будьте честными. Записи принадлежат только вам и больше никому. (Позаботьтесь об этом). Разрешите себе записывать правду о том, что происходит в вашей жизни, и свои мысли и отношения к этим событиям. Не пытайтесь писать то, что вы хотели бы чувствовать, вместо настоящих эмоций. Дайте себе время, замедлитесь и позвольте правде вылиться на бумагу.
+
+Перечитывайте свои записи. Есть что-то важное и нужное в записях, даже если прямо сейчас вы этого не видите. Всегда храните дневники и перечитывайте их время от времени (например, в конце года вы прочтёте, что произошло с вами за этот год).</td>
+			
+	</div>
+
+		<a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+	</div>	
+</div>
+
+	<div class="podval">
+	&bull;ХЭЛ ЭЛРОД
+	<img src="заголовок.png" style = "margin-bottom: -25px" width="100" height="50">
+	</div>
+	
+</body>
+
+</html>
